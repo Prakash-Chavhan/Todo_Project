@@ -1,0 +1,35 @@
+
+
+  
+    <mat-toolbar color="primary" style="margin: 0%;">
+      <mat-toolbar-row>
+        <img class="logo" src="./assets/img3.gif" width="50" height="50"  > 
+        <span style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">To Do</span>
+        <span class="example-spacer"></span>
+        <button style="margin-right: 15px;" *ngIf="! isLogIn()" mat-raised-button color="accent" routerLink="/registration">Signup</button>
+        
+        <button  *ngIf="! isLogIn()"routerLink="/login" mat-raised-button>Login</button>
+        
+        <button (click)="logout()" *ngIf=" isLogIn()" mat-raised-button color="warn">logout</button>
+      </mat-toolbar-row>
+  
+      <mat-toolbar-row *ngIf=" isLogIn()">
+        <!-- <span>Second Line</span> -->
+        
+        
+        <button routerLink="/home" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+          <mat-icon>home</mat-icon>
+        </button>
+        <button routerLink="/user" mat-raised-button color="primary">User Dashboard</button>
+        <button routerLink="/add" mat-raised-button color="primary">Add Task</button>
+        <button routerLink="/important" mat-raised-button color="primary">Important Tasks</button>
+        <!-- <button mat-raised-button color="primary"></button> -->
+        <span class="example-spacer"></span>
+        <small>Hello {{name}} !!</small>
+       
+      </mat-toolbar-row>
+    </mat-toolbar>
+  
+    
+  
+  

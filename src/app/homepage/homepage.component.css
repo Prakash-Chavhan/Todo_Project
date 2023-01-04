@@ -1,0 +1,70 @@
+
+.navbar{
+    background-color: #f0f8ffb9	;
+   
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%)   ; 
+    border-radius: 0;
+    border: 0ch;
+  
+        
+       margin-bottom: auto; }
+  #a1{
+    color:rgb(66, 56, 56);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+    
+
+    font-size: 50px;
+    
+  }
+  body{
+    font-size: medium;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  }
+  .logo {
+    border-radius: 50%;
+    content: normal;
+  }
+  .Home{
+    /* background-color:aliceblue; */
+    /* padding: 10px; */
+    height: auto;
+  }
+  .card{
+    margin-top: 5px;
+  color: black;  
+  }
+  .container1{
+    position: relative;
+   
+    margin: 0 ; /* Center it */
+  }
+  
+  .container1 .content1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding: 0px;
+   
+    color: #f1f1f1; /* Grey text */
+   
+  
+    /* padding: 20px; Some padding */
+  }
+  .example-card {
+    max-width: 400px;
+  }
+  mat-grid-tile {
+    background: lightblue;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
